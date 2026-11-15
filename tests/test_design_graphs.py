@@ -29,4 +29,4 @@ class TestDesignAndGraphs(unittest.TestCase):
     def test_stats_counter(self) -> None:
         src_dir = Path(__file__).resolve().parent.parent / "src"
         counts = collect_topic_counts(src_dir)
-        self.assertEqual(sum(counts.values()), 8)
+        self.assertEqual(sum(counts.values()), 11)
