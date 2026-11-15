@@ -1,0 +1,5 @@
+[project]
+name = "algo-practice"
+version = "0.1.0"
+description = "Daily algorithms and data structures practice with unit tests."
+requires-python = ">=3.10"
